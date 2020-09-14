@@ -35,3 +35,5 @@ C:\Users\usuario\Documents\respo\WebShark-App\webShark-App\webShark-App\obj\Debu
 C:\Users\usuario\Documents\respo\WebShark-App\webShark-App\webShark-App\obj\Debug\netcoreapp3.1\webShark-App.pdb
 C:\Users\usuario\Documents\respo\WebShark-App\webShark-App\webShark-App\obj\Debug\netcoreapp3.1\webShark-App.genruntimeconfig.cache
 C:\Users\usuario\Documents\respo\WebShark-App\webShark-App\webShark-App\obj\Debug\netcoreapp3.1\webShark-App.csproj.CopyComplete
+C:\Users\usuario\Documents\respo\WebShark-App\webShark-App\webShark-App\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Menu.cshtml.g.cs
+C:\Users\usuario\Documents\respo\WebShark-App\webShark-App\webShark-App\obj\Debug\netcoreapp3.1\Razor\Views\Home\login.cshtml.g.cs

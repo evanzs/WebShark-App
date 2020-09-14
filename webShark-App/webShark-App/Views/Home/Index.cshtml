@@ -1,158 +1,80 @@
-﻿
+﻿<link href="/lib/icones/fontawesome/css/all.min.css" rel="stylesheet">
+<link href="/lib/icones/fontawesome/css/v4-shims.min.css" rel="stylesheet">
+<link href="/lib/icones/icofont/icofont.min.css" rel="stylesheet">
+<link href="/lib/icones/themify-icons/themify-icons.css" rel="stylesheet">
+<link href="/lib/icones/material-design-iconic-font/css/material-design-iconic-font.min.css" rel="stylesheet">
+<link href="/lib/icones/material-design-iconic-font/css/materialdesignicons.min.css" rel="stylesheet">
+<link href="/lib/icones/icofont/icofont.min.css" rel="stylesheet">
+<link href="/lib/icones/fontello/css/fontello.css" rel="stylesheet">
+<link href="/lib/icones/simple-line/simple-line-icons.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 
-<div class="container--md">
-    <div class="row">
-        <div class=" col-md-8   red">
+<div container-md>
+    <div>
 
-            <img src="https://via.placeholder.com/150x90" class="img-bg"  style=" width: 100%"/>
-            
+       
+            <nav class="navbar navbar-dark bg-dark">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </nav>
+        </div> 
+    </div>
+    <div class=" icon-bar">
 
 
-            
+        <div class="icon-bar item">
+            <i class="fa fa-tree" aria-hidden="true"></i>
+            <span> Atendimento</span>
+        </div>
 
+        <div class="icon-bar item">
+            <i class="fa fa-id-card" aria-hidden="true"></i>
+            <span>Árvore de Decisões</span>
+        </div>
+        <div class="icon-bar item">
+            <i class="fa fa-search" aria-hidden="true"></i>
+            <span> Cad. Básicos</span>
+        </div>
+        <div class="icon-bar item">
+            <i class="fa fa-cogs" aria-hidden="true"></i>
+            <span>Consultas</span>
+        </div>
+        <div class="icon-bar item">
+
+            <i class="fa fa-phone" aria-hidden="true"></i>
+            <span>Licençãs</span>
+        </div>
+
+        <div class="icon-bar item">
+            <i class="fa fa-user" aria-hidden="true"></i>
+            <span>Supervisor</span>
         </div>
 
 
 
-
-        <div class="  col-md-4 login-panel">
-
-
-
-            
-            <img src ="https://via.placeholder.com/150x90" class="img-logo"/>
-
-
-
-            <div class="form-login">
-                <form class=" form-group">
-
-                    <div class="form-group">
-
-
-                        <input type="text" class="form-control" id="" aria-describedby="login" placeholder="Usuário">
-
-                    </div>
-                    <div class="form-group">
-
-                        <input type="password" class="form-control " id="isenhaInput" placeholder="Senha">
-                    </div>
-
-                    <div class="form-group form-row">
-                        <div class=" form-check col">
-                            <input type="checkbox" class="form-check-input " id="CheckLembrar">
-                            <label class="form-check-label" for="CheckLembrar">Lembrar</label>
-
-
-                        </div>
-                        <div class="form-group col">
-
-                            <label class="" for="">Esqueci a senha.</label>
-
-
-                        </div>
-
-                    </div>
-
-                    <div class="btn-login btn btn-light"  style=" width:100%; height:43px; position:center;">
-
-                        <span class=" btn-text"> ACESSAR</span>
-
-                    </div>
-
-                </form>
-
-            </div>
-
-
-
-            <div class="login-footer">
-               SDHelp :: v 1.1.0
-            </div>
-            
-        </div>
 
 
     </div>
-</div>
-
-
 
 <style>
 
-    .img-bg
-    {
-        height:100%;
-        max-width:100%;
-        display:block;
-    }
-    .img-logo
-    {
-        height:auto;
-        
-        display:block;
-        margin: auto;
-        padding: 10%;
-
-    }
-
-    .red {
-        background: red;
-      
-       
-        
-    }
-
-    .blue {
-        background: blue;
-       
-
-      
-    }
-
-    .login-panel {
-        /* padrão de corpo  */
-        width: 100%;
-        height: 100%;
-
-        position:relative;
-        float: right;
-        background-color: #678bbb;
-        padding: 30px 45px;
-        font-size: large;
-        color: #FFF;
-        overflow: hidden;
-        border-left: 1px solid #009ccf;
-
-        min-width:25%;
-    }
-
-    .form-login {
-      
-       width: 100%;
-       height: 100%;
-       justify-content: flex-start;
-       align-items:stretch;
-
-    }
-
-    .btn-login
-    {
-        display:inline-block;
-        cursor: pointer;
-        text-align:center;
-        vertical-align:middle;
-        max-width:100%;
+    .icon-bar {
+        width: 90px;
+        background-color: #555;
     }
 
 
-    .login-footer
-    {
-       
-        font-size:x-small;
-        text-align:center;
-        buttom:10px;
-        position:absolute;
+
+
+    .item {
+        display: block; /* Make the links appear below each other instead of side-by-side */
+        text-align: center; /* Center-align text */
+        padding: 16px; /* Add some padding */
+        transition: all 0.3s ease; /* Add transition for hover effects */
+        color: white; /* White text color */
+        line-height: 24px;
+        margin: 8px;
     }
 </style>
