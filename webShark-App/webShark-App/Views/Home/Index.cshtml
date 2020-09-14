@@ -1,20 +1,28 @@
 ﻿
 
 
-<div class="container">
+<div class="container--md">
     <div class="row">
-        <div class="col-8 red">
+        <div class=" col-md-8   red">
 
-            <h1>img</h1>
+            <img src="https://via.placeholder.com/150x90" class="img-bg"  style=" width: 100%"/>
+            
+
+
+            
+
         </div>
 
 
 
 
-        <div class=" col-4 login-panel">
-            
+        <div class="  col-md-4 login-panel">
 
-            <img src="" width="150"/>
+
+
+            
+            <img src ="https://via.placeholder.com/150x90" class="img-logo"/>
+
 
 
             <div class="form-login">
@@ -28,39 +36,41 @@
                     </div>
                     <div class="form-group">
 
-                        <input type="password" class="form-control" id="isenhaInput" placeholder="Senha">
+                        <input type="password" class="form-control " id="isenhaInput" placeholder="Senha">
                     </div>
 
-                    <div class="form-group row">
-                        <div class="">
-                            <input type="checkbox" class="custom-control-input" id="CheckLembrar">
-                            <label class="custom-control-label" for="CheckLembrar">lembrar</label>
+                    <div class="form-group form-row">
+                        <div class=" form-check col">
+                            <input type="checkbox" class="form-check-input " id="CheckLembrar">
+                            <label class="form-check-label" for="CheckLembrar">Lembrar</label>
 
 
                         </div>
-                        <div class="">
+                        <div class="form-group col">
 
-                            <label class="" for="">lembrar</label>
+                            <label class="" for="">Esqueci a senha.</label>
 
 
                         </div>
 
                     </div>
 
-                    <div class="btn-acessar">
+                    <div class="btn-login btn btn-light"  style=" width:100%; height:43px; position:center;">
 
-                        <button type="submit" class="btn btn-primary my-1">Acessar</button>
+                        <span class=" btn-text"> ACESSAR</span>
 
                     </div>
 
                 </form>
-                <span>SDHelp :: v 1.1.0</span>
-            </div>  
+
+            </div>
+
+
+
+            <div class="login-footer">
+               SDHelp :: v 1.1.0
+            </div>
             
-
-
-
-           
         </div>
 
 
@@ -71,37 +81,51 @@
 
 <style>
 
+    .img-bg
+    {
+        height:100%;
+        max-width:100%;
+        display:block;
+    }
+    .img-logo
+    {
+        height:auto;
+        
+        display:block;
+        margin: auto;
+        padding: 10%;
+
+    }
+
     .red {
         background: red;
       
-        max-width: 75%;
-        position: relative;
+       
         
-      /* padrão de corpo  */
-        width: 100%;
-        padding-right: 15px;
-        padding-left: 15px;
     }
 
     .blue {
         background: blue;
        
 
-        /* padrão de corpo  */
-        width: 100%;
-        padding-right: 15px;
-        padding-left: 15px;
+      
     }
 
     .login-panel {
-        float: right;
+        /* padrão de corpo  */
+        width: 100%;
         height: 100%;
+
+        position:relative;
+        float: right;
         background-color: #678bbb;
         padding: 30px 45px;
         font-size: large;
         color: #FFF;
         overflow: hidden;
         border-left: 1px solid #009ccf;
+
+        min-width:25%;
     }
 
     .form-login {
@@ -113,5 +137,22 @@
 
     }
 
+    .btn-login
+    {
+        display:inline-block;
+        cursor: pointer;
+        text-align:center;
+        vertical-align:middle;
+        max-width:100%;
+    }
 
+
+    .login-footer
+    {
+       
+        font-size:x-small;
+        text-align:center;
+        buttom:10px;
+        position:absolute;
+    }
 </style>
